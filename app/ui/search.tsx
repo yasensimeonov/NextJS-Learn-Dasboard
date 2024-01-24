@@ -11,7 +11,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
     const { replace } = useRouter();
 
     function logInputToConsole(term: string) {
-        console.log(term);
+        console.log('search criteria', term);
     }
 
     const debouncedSearch = debounce((term) => {
