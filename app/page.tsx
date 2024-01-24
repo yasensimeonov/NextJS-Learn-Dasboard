@@ -37,7 +37,7 @@ export default function Page() {
                     </p>
                     <div className="mb-4">
                         <label htmlFor="skillLevel" className="mb-2 block text-sm font-medium">
-                            Choose your front-end skill level
+                            Choose your front-end skill level (clsx test):
                         </label>
                         <div className="relative">
                             <select
